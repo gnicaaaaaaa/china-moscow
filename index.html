@@ -460,12 +460,15 @@
       }
 
       .quote-wrap {
+        min-height: clamp(175px, 22svh, 210px);
+        padding: 22px 22px 24px;
         text-align: center;
         align-items: center;
+        justify-content: center;
       }
 
-      .quote { min-height: 0; margin-top: 10px; font-size: clamp(1.18rem, 5.5vw, 1.55rem); line-height: 1.12; }
-      .quote-date { margin-top: 10px; font-size: .62rem; }
+      .quote { min-height: 0; margin-top: 12px; font-size: clamp(1.18rem, 5.5vw, 1.55rem); line-height: 1.16; }
+      .quote-date { margin-top: 14px; font-size: .62rem; }
 
       .route-card { padding: 12px 15px 9px; border-radius: 18px; }
       .route-head { align-items: center; margin-bottom: 5px; }
@@ -497,13 +500,13 @@
         min-height: 218px;
         padding-block: 12px 17px;
       }
-      .quote-wrap { padding-block: 11px; }
+      .quote-wrap { min-height: 145px; padding: 13px 18px 15px; }
       .countdown .eyebrow { padding-right: 0; }
       .days-number { margin-top: 8px; font-size: 4.65rem; }
       .days-label { margin-top: 8px; }
       .passed { margin-top: 9px; padding-top: 0; }
-      .quote { margin-top: 7px; font-size: 1.05rem; }
-      .quote-date { margin-top: 7px; }
+      .quote { margin-top: 8px; font-size: 1.05rem; line-height: 1.14; }
+      .quote-date { margin-top: 8px; }
       .route-card { padding-block: 8px 5px; }
       .route { height: 44px; }
       .footer-note { font-size: .7rem; }
