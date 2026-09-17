@@ -441,16 +441,18 @@
       }
 
       .countdown {
+        min-height: clamp(245px, 34svh, 300px);
+        padding: 20px 18px 28px;
         border-right: 0;
         border-bottom: 1px solid var(--line);
         text-align: center;
       }
 
       .countdown .eyebrow { padding-right: 34px; }
-      .days-number { margin-top: 2px; font-size: clamp(5.4rem, 29vw, 7.2rem); }
-      .days-label { margin-top: 12px; font-size: .82rem; letter-spacing: .12em; }
+      .days-number { margin-top: 18px; font-size: clamp(5.4rem, 29vw, 7.2rem); }
+      .days-label { margin-top: 14px; font-size: .82rem; letter-spacing: .12em; }
       .passed {
-        margin-top: 10px;
+        margin-top: 14px;
         padding-top: 0;
         border-top: 0;
         font-size: .64rem;
@@ -491,11 +493,15 @@
       .page { padding-top: max(6px, env(safe-area-inset-top)); gap: 6px; }
       .time-card { min-height: 58px; }
       .main-card::before { display: none; }
-      .countdown, .quote-wrap { padding-block: 11px; }
+      .countdown {
+        min-height: 218px;
+        padding-block: 12px 17px;
+      }
+      .quote-wrap { padding-block: 11px; }
       .countdown .eyebrow { padding-right: 0; }
-      .days-number { margin-top: 0; font-size: 4.65rem; }
+      .days-number { margin-top: 8px; font-size: 4.65rem; }
       .days-label { margin-top: 8px; }
-      .passed { margin-top: 6px; padding-top: 0; }
+      .passed { margin-top: 9px; padding-top: 0; }
       .quote { margin-top: 7px; font-size: 1.05rem; }
       .quote-date { margin-top: 7px; }
       .route-card { padding-block: 8px 5px; }
